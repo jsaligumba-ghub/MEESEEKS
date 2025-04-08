@@ -14,10 +14,9 @@ const Community = () => {
             <div className='flex w-full h-full'>
             <div className="bg-gradient-to-b from-cyan-300 to text-teal-700 h-64 w-full absolute max-lg:h-[150px] max-lg:w-full" />
             <div className='flex flex-col w-[1250px] h-[350px] m-auto text-white'>
-                <div className='flex flex-col w-auto h-auto text-center text-white'>
-                <div className="relative text-center">
-  <h1 className="absolute inset-0 text-[130px] font-bold uppercase text-cyan-700 blur-sm mr-2"></h1>
-  <h1 className="relative text-[80px] font-bold uppercase text-white">#MEESEEKS COMMUNITY</h1>
+                <div className='flex flex-col w-auto h-auto text-center text-white max-lg:mx-auto'>
+                <div className="relative text-center max-lg:mx-auto">
+  <h1 className="relative text-[80px] font-bold uppercase text-white max-lg:text-6xl">#MEESEEKS COMMUNITY</h1>
 </div>
                 <p className='text-center text-xl italic '>Be a part of MEESEEKS COMMUNITY!</p>
             </div>

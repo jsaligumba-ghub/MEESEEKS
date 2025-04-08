@@ -36,16 +36,16 @@ export const Tokenomics = () => {
   ];
 return (
   <section className="w-full relative min-h-screen h-auto py-20 bg-gradient-to-b from-white to-cyan-100 max-lg:h-auto max-lg:w-full max-lg:">
-      <div className="max-w-5xl mx-auto max-lg:h-[745px] max-lg:w-[475px] max-lg:mt-0 border-4 border-cyan-400  rounded-2xl">
+      <div className="max-w-5xl mx-auto max-lg:h-[645px] max-sm:w-[275px] max-lg:mt-0 border-4 border-cyan-400  rounded-2xl">
       <div className="font-primary text-center w-auto">
-              <h1  className="text-6xl text-[#7acee0] w-[450px] font-bold ">
-                  Tokenomics
+              <h1  className="text-6xl text-[#7acee0] w-[450px] font-bold max-sm:text-2xl max-sm:w-auto">
+                  TOKENOMICS
               </h1>
           </div>
       <div className="w-full flex flex-row-reverse max-lg:flex- max-lg:flex-col">
      
       <div className="w-full flex flex-col justify-center">
-          <div className="w-[400px] mx-auto px-[20px] py-[10px] max-lg:">
+          <div className="w-[400px] mx-auto px-[20px] py-[10px] max-sm:w-auto">
           {TokenomicsData.map((item, index) => (
               <div key={index} className="flex items-center mb-4">
                   
@@ -62,7 +62,7 @@ return (
           ))}
       </div>
       </div>
-      <div className="w-full mx-auto max-lg:size-80 max-lg:h-auto">
+      <div className="w-full mx-auto max-lg:size-80 max-lg:h-auto max-sm:w-auto">
           <img 
           src="/tokenomics.png" 
           alt="Tokenomics" className="w-[1250px] h-auto mx-auto scale-x-[-1] mt-8" />

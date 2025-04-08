@@ -20,7 +20,7 @@ const Buyy = () => {
         {/* Content Section */}
         <div className="flex flex-col gap-6 md:grid-cols-2 max-w-6xl w-full">
           {/* Card 1 */}
-          <div className="flex items-center p-6 bg-white border-2 border-cyan-600 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+          <div className="flex items-center p-6 bg-white border-2 border-cyan-600 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105 max-lg:w-[450px] mx-auto max-sm:w-[350px] max-sm:h-[140px]">
             <h1 className="text-4xl font-bold text-black md:text-6xl">1.</h1>
             <p className="ml-4 text-sm font-semibold text-black md:text-base">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, recusandae numquam? Accusantium odit, earum enim deserunt voluptatem deleniti mollitia vitae ad incidunt quaerat nulla.
@@ -28,7 +28,7 @@ const Buyy = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="flex items-center p-6 bg-white border-2 border-cyan-600 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+          <div className="flex items-center p-6 bg-white border-2 border-cyan-600 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105 max-lg:w-[450px] mx-auto  max-sm:w-[350px] max-sm:h-[140px]">
             <h1 className="text-4xl font-bold text-black md:text-6xl">2.</h1>
             <p className="ml-4 text-sm font-semibold text-black md:text-base">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sunt cum voluptatum. Magnam cumque consectetur nam perferendis, repellat officiis necessitatibus quis quaerat sit totam.
@@ -36,7 +36,7 @@ const Buyy = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="flex items-center p-6 bg-white border-2 border-cyan-600 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+          <div className="flex items-center p-6 bg-white border-2 border-cyan-600 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105 max-lg:w-[450px] mx-auto max-sm:w-[350px] max-sm:h-[140px]">
             <h1 className="text-4xl font-bold text-black md:text-6xl">3.</h1>
             <p className="ml-4 text-sm font-semibold text-black md:text-base">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sequi aliquid, assumenda nisi distinctio deserunt sapiente ea eos officia.
@@ -44,13 +44,13 @@ const Buyy = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="flex items-center p-6 bg-white border-2 border-cyan-600 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+          <div className="flex items-center p-6 bg-white border-2 border-cyan-600 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105 max-lg:w-[450px] mx-auto max-sm:w-[350px] max-sm:h-[140px]">
             <h1 className="text-4xl font-bold text-black md:text-6xl">4.</h1>
             <p className="ml-4 text-sm font-semibold text-black md:text-base">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, rem fugit explicabo cupiditate nulla, pariatur inventore id ullam repudiandae nisi commodi.
             </p>
           </div>
-          <div className="flex items-center p-6 bg-white border-2 border-cyan-600 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105 m-auto">
+          <div className="flex items-center p-6 bg-white border-2 border-cyan-600 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105 max-lg:w-[450px] mx-auto max-sm:w-[350px] max-sm:h-[140px]">
             <h1 className="text-4xl font-bold text-black md:text-6xl">5.</h1>
             <p className="ml-4 text-sm font-semibold text-black md:text-base">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, rem fugit explicabo cupiditate nulla, pariatur inventore id ullam repudiandae nisi commodi.

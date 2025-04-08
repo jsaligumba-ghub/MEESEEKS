@@ -15,8 +15,8 @@ const Hero = () => {
             <div className='flex flex-col w-[950px] h-[350px] m-auto mt-20 text-white'>
                 <div className='flex flex-col w-auto h-auto text-center text-white'>
                 <div className="relative text-center">
-  <h1 className="absolute inset-0 text-[130px] font-bold uppercase text-cyan-700 blur-sm mr-2">$MEESEEKS</h1>
-  <h1 className="relative text-[130px] font-bold uppercase text-white">$MEESEEKS</h1>
+  <h1 className="absolute inset-0 text-[130px] font-bold uppercase text-cyan-700 blur-sm mr-2 max-lg:text-6xl">$MEESEEKS</h1>
+  <h1 className="relative text-[130px] font-bold uppercase text-white max-lg:text-6xl">$MEESEEKS</h1>
 </div>
                 <p className='text-center text-xl italic '>Rick's Annoying Assistant</p>
             </div>
